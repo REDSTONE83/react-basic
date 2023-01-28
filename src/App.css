@@ -1,38 +1,65 @@
-.App {
+.orange {
+  color: orange;
+}
+
+.profile {
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  box-shadow: 17px 12px 19px 5px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 17px 12px 19px 5px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 17px 12px 19px 5px rgba(0, 0, 0, 0.57);
+  border-radius: 1rem;
+}
+
+.avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  background-color: red;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.counter {
+  width: 200px;
+  border: 1px solid orange;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  padding: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.count {
+  font-size: 4rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.total {
+  font-size: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn {
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  cursor: pointer;
+  background-color: orangered;
 }
